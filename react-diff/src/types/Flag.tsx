@@ -1,6 +1,6 @@
 export type Flag = 'Placement' | 'Deletion';
 
-interface Node {
+export interface Node {
   key: string;
   flag?: Flag;
   index?: number;
